@@ -9,10 +9,12 @@ const Gallery = () => {
 
             <div key = {i}>
                 <div className='image-item'>
-                    <img src={item.src.large}/>
+                    <img src={item.src.large} alt={item.photographer}/>
                 </div>
                 <div className='info-name'>
+
                     <p>{item.photographer}</p>
+
                 </div>
             </div>
             
